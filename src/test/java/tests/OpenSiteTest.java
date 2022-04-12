@@ -28,7 +28,8 @@ public class OpenSiteTest {
 	public void test() throws InterruptedException {
 		driver.get("https://marcelodebittencourt.com/demopages/demosimplesearch/");
 		assertTrue("T[itulo da pagina difere do esperado", driver.getTitle().contentEquals("Demo Simple Search using JavaScript")); // verificacao de elementos da pagina web
-		Thread.sleep(3000);
+		Thread.sleep(2000);
+		
 		
 	}
 
